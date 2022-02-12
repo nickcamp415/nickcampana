@@ -36,9 +36,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-.profilepic {
-    margin-left: 1rem;
-}
 .image {
     max-width: 100px;
     max-height: 100px;
@@ -48,7 +45,7 @@ body {
 .identity {
     font-weight: 700;
     margin-left: 1rem;
-    font-size: 12px;
+    font-size: 14px;
 }
 .name {
     color: #174895
