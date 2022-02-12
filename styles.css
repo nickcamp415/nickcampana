@@ -17,7 +17,6 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
     background: linear-gradient(142deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 49%, rgba(23,72,149,1) 100%);  
 }
 .card {
@@ -49,6 +48,7 @@ body {
 .identity {
     font-weight: 700;
     margin-left: 1rem;
+    font-size: 12px;
 }
 .name {
     color: #174895
