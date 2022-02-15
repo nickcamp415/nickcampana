@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     overflow-y: hidden;
 }
-.background {
+/* .background {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -120,4 +120,85 @@ body {
 .linkedin:hover {
     color: #cf1b39;
     cursor: pointer;
+} */
+.background {
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    background-color: #bebebe;
+    align-items: center;
+}
+.picture {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bebebe;
+}
+.profilepic {
+    max-height: 75%;
+    max-width: 75%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 0px #000000;
+}
+.bodytext {
+    background-color: #bebebe;
+    width: 80%;
+    display: flex;
+    margin-top: 1rem;
+}
+.titles {
+    line-height: 1.5rem;
+}
+.links {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}
+.contact:hover {
+    cursor: pointer;
+}
+.bbl {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}
+.bbl:hover {
+    cursor: pointer;
+}
+.linkedin {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
 }
