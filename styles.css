@@ -130,7 +130,7 @@ body {
     align-items: center;
 }
 .picture {
-    height: 35%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ body {
     height: 4rem;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.2);
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
